@@ -1,0 +1,7 @@
+Competition 1
+
+python main.py --loss perceptron_loss --batch-size 100 --train-data train.csv --test-data test.csv --loss-weight 1
+
+Competition 2
+
+python main2.py --loss square_hinge_loss --batch-size 500 --train-data train.csv --test-data test.csv --loss-weight 1
